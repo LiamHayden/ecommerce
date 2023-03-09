@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'items/index'
+  get 'items/new'
+  get 'items/create'
+  get 'items/edit'
+  get 'items/update'
+  get 'items/destroy'
   get 'stores/index'
   get 'stores/new'
   get 'stores/create'
